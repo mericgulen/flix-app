@@ -321,24 +321,27 @@ section h2 {
 
 .pagination {
   margin-top: 20px;
+  display : flex;
+  justify-content : flex-end;
+  align-items:center;
+  gap:15px;
 }
 
 .page-counter {
-  margin-top: 10px;
+ // margin-top: 10px;
 }
 
 /* Alert */
 .alert {
-  background: red;
   padding: 10px 20px;
   margin-bottom: 20px;
   border-radius: 5px;
 }
 
-.alert-success {
+.success {
   background: green;
 }
 
-.alert-error {
+.error {
   background: red;
 }
